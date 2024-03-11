@@ -1,0 +1,265 @@
+#header {
+  /*-----------------------以下はレイアウトのためのCSS------------------------*/
+  /*ヘッダーボックスの*/
+  display: flex;
+  justify-content: center;
+  padding-top: 2%;
+  height: 6%;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  -moz-column-gap: 4rem;
+  column-gap: 1rem;
+  top: 0.5rem;
+  left: 0;
+  height: 5rem;
+  padding: 0 2.5rem;
+  border-radius: 3rem;
+  background: rgb(156, 106, 61);
+  font-size: 1.1rem;
+}
+
+nav ul li a {
+  /*文字のフォントや色、サイズなど*/
+  display: block;
+  text-decoration: none;
+  padding: 1rem;
+
+  color: rgba(255, 255, 255, 0.93);
+  font-family: Lily Script One;
+}
+
+
+
+/*-----------------------catchUp------------------------*/
+#catchUp {
+  justify-content: center;
+  display: flex;
+  padding-top: 5%;
+  padding-bottom: 4%;
+}
+
+#catchUp img {
+  /* Wavy Buddies Avatar */
+  position: relative;
+  width: 20%;
+  height: 80%;
+}
+
+#catchUp p {
+  /* ryuuji kumagai portforio */
+  position: relative;
+  width: 20%;
+  padding-left: 3%;
+  padding-top: 3%;
+
+  /* ryuuji kumagai portforio font*/
+  color: rgb(36, 33, 33);
+  font-family: Lilita One;
+  font-size: 2rem;
+  line-height: 110%;
+  text-align: left;
+}
+
+h2 {
+  color: rgb(0, 0, 0);
+  font-family: Lilita One;
+  font-size: 3.5rem;
+  font-weight: 400;
+  line-height: 127%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+/*-----------------------profiel------------------------*/
+
+#profiel h2 {
+  padding-bottom: 6%;
+}
+
+#profiel img {
+  /* Hyperspace Standing */
+  position: relative;
+  width: 10rem;
+  height: 16rem;
+  left: 0rem;
+  top: 1rem;
+  /* bottom: 1438rem; */
+  display: flex;
+}
+
+.profiel_frame {
+  width: 70%;
+  display: flex;
+}
+
+#profiel {
+  justify-content: center;
+  display: flex;
+  padding-bottom: 10%;
+  padding-top: 6%;
+}
+
+.right_side {
+  flex-direction: column;
+  padding-left: 14%;
+  padding-top: 18%;
+}
+
+.left_side {
+  flex-direction: column;
+}
+
+.roma_name {
+  font-size: 1.1rem;
+  padding-bottom: 2%;
+}
+
+.profiel_name {
+  font-size: 2.6rem;
+}
+
+.profiel_text {
+  font-size: 1rem;
+  white-space: pre-line;
+}
+
+/*-----------------------careeer------------------------*/
+
+.box_frame {
+  width: 70%;
+}
+
+#careeer {
+  justify-content: center;
+  display: flex;
+  padding-top: 6%;
+  padding-bottom: 6%;
+}
+
+.careeer_list {
+  list-style: disc;
+  padding-left: 3%;
+}
+
+.careeer_title {
+  padding-bottom: 6%;
+}
+
+.careeer_list li {
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+/*-----------------------skills------------------------*/
+
+#skills {
+  justify-content: center;
+  display: flex;
+  padding-top: 6%;
+  padding-bottom: 6%;
+}
+
+#skills h2 {
+  padding-bottom: 6%;
+}
+
+#skills ul {
+  list-style: disc;
+  padding-left: 3%;
+}
+
+/*-----------------------work------------------------*/
+#works {
+  justify-content: center;
+  display: flex;
+  padding-bottom: 6%;
+  background-color: rgba(217, 173, 132, 0.6)
+}
+.works_all_box{
+  width: 70%;
+}
+#works h2 {
+  padding-bottom: 6%;
+  padding-top: 4%;
+
+}
+
+.work_box{
+  display: grid;
+  justify-content: center;
+  grid-auto-flow: column;
+  column-gap: 5rem;
+}
+
+.grid_frame a{
+  transition: all 0.3s
+}
+
+.grid_frame a:hover{
+  opacity: 0.7;
+}
+
+
+#works img {
+  width: 19rem;
+  height: 13rem;
+  padding: 3%;
+}
+
+#works p{
+  text-align: left;
+}
+
+
+/*-----------------------contact------------------------*/
+
+#contact {
+  justify-content: center;
+  display: flex;
+  padding-top: 6%;
+  padding-bottom: 6%;
+}
+
+#contact h2 {
+  padding-bottom: 6%;
+}
+
+.mail {
+  color: rgb(0, 0, 0);
+  font-family: League Spartan;
+  font-size: 2rem;
+  /* font-weight: 400; */
+  line-height: 4rem;
+  letter-spacing: 0%;
+  text-align: left;
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
+
+/*-----------------------profiel-career-skills_color------------------------*/
+
+.profiel-career-skills_color {
+  background-color: rgb(255, 255, 255);
+  background-color: rgba(186, 246, 180, 0.55);
+}
+
+/*-----------------------footer------------------------*/
+
+footer {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 4.4rem;
+  background-color: rgb(0, 0, 0);
+}
+
+footer p {
+  color: rgb(255, 255, 255);
+  font-family: League Spartan;
+}
